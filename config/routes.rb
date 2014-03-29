@@ -1,5 +1,7 @@
 Run::Application.routes.draw do
 
+  
+  
   get '/home', to: 'application#home'
   post '/sign_in', to: 'application#sign_in'
   post '/register', to: 'application#register'
