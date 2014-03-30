@@ -2,6 +2,16 @@ Run::Application.routes.draw do
 
   
   
+  resources :designation_type_designations
+
+  resources :designation_types
+
+  resources :designations do
+    member do
+      get 'job_studies'
+    end
+  end
+
   get '/home', to: 'application#home'
   post '/sign_in', to: 'application#sign_in'
   post '/register', to: 'application#register'

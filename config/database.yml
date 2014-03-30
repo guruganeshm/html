@@ -20,7 +20,8 @@ development:
   host: ec2-54-197-238-8.compute-1.amazonaws.com
   database: dal585bpsq506r 
   pool: 5
-  username: 
+  username: howzysyhbssktn
+  password: PDt1kzYLF5uVbgmD2Vh3uw2KAK
   Port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
